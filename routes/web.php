@@ -20,7 +20,8 @@ Route::get('users', function(){
 Route::get('showname', function(){
     return '<h1>Hello Laravel</h1>';
 });
-
+Route::get('welcom/name','HelloController@showHello');
+           
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
