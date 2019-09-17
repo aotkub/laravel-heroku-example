@@ -10,6 +10,6 @@ class HelloController extends Controller
     return '<h1>Hello:'.$name.'</h1>';
   }
   function resultProduct($product){
-    return '<h1>show:'.$product.'</h1>';
+    return '<h1>Show:'.$product.'</h1>';
   }
 }
