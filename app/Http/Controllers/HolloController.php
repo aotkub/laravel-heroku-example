@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class HelloController extends Controller
 {
-  function showHello(){
-    return '<h1>Hello Controller : Natthaphat Pankiang</h1>';
+  function showHello($name){
+    return '<h1>Hello:'.$name.'</h1>';
   }
 }
