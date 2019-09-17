@@ -23,5 +23,3 @@ Route::get('showname', function(){
 Route::get('welcome/name','HelloController@showHello');
            
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
