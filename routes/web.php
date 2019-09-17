@@ -17,6 +17,9 @@ Route::get('/', function () {
 Route::get('users', function(){
     return 'Users! 555';
 });
+Route::get('showname', function(){
+    return '<h1>Hello Laravel</h1>';
+});
 
 Auth::routes();
 
