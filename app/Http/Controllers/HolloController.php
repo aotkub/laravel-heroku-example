@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HelloController extends Controller
 {
     function show(){
-      return view('users')
+      return view('views.users')
       ->with('name','natthaphat')
       ->with('title','Laravel tutorial'):
   }
