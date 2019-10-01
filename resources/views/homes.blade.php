@@ -1,2 +1,2 @@
-@extensds('master')
+@extends('master')
 @section('title','Welcome Homepage')
