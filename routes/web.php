@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/home', function () {
-    return view('home');
+Route::get('/homes', function () {
+    return view('homes');
 });
 Route::get('/show','HelloController@show');
