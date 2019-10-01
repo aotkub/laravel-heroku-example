@@ -4,7 +4,7 @@
     <title>Show View</title>
   </head>
   <body>
-         <h1> view Data :</h1>
+         <h1>view Data :</h1>
          
   </body>
  </html>
