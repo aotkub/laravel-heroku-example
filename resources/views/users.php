@@ -5,7 +5,8 @@
   </head>
   <body>
          <h1>view Data :</h1>
-         <h2><?= $name ?></h2>
+         <h2>{{name}}</h2>
+         <p>{{title}}></p>
   </body>
 </html>
   
