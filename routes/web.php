@@ -17,4 +17,7 @@ Route::get('/', function () {
 Route::get('/homes', function () {
     return view('homes');
 });
+Route::get('/edit', function () {
+    return view('edit');
+});
 Route::get('/show','HelloController@show');
