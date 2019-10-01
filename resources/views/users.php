@@ -7,5 +7,5 @@
          <h1>view Data :</h1>
          
   </body>
- </html>
+</html>
   
