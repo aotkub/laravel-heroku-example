@@ -9,7 +9,11 @@ class HelloController extends Controller
   function showHello($name){
     return '<h1>Hello:'.$name.'</h1>';
   }
-  function resultProduct($product){
+  function show(){
+    return view('users')
+      ->with('name','natthaphat')
+      ->with('title','Laravel tutorial'):
+  !function resultProduct($product){
     return '<h1>Show:'.$product.'</h1>';
   }
 }
