@@ -13,7 +13,5 @@ class HelloController extends Controller
     return view('users')
       ->with('name','natthaphat')
       ->with('title','Laravel tutorial'):
-  !function resultProduct($product){
-    return '<h1>Show:'.$product.'</h1>';
   }
 }
